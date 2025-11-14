@@ -5,7 +5,7 @@ while True:
     user_action = user_action.strip()
 
     if 'add' in user_action:
-        todo = user_action[4:]
+        todo = user_action[4:] + "\n"
 
         # file = open('todos.txt', 'r')
         # todos = file.readlines()
@@ -50,7 +50,8 @@ while True:
             file.writelines(todos)
 
     elif 'delete' in user_action:
-        number = int(input("Number of the todo to delete: "))
+        number = int(user_action[7:])
+        print(number)
 
         with open('todos.txt', 'r') as file:
             todos = file.readlines()

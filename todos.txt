@@ -1,5 +1,6 @@
-fry
+clean
 tidy
-prepare
 workout
-fix the computer
+fry
+play football
+cook
