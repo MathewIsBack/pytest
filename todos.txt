@@ -4,3 +4,6 @@ workout
 fry
 play football
 cook
+record
+train
+gym
