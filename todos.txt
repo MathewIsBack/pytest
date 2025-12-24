@@ -7,3 +7,4 @@ cook
 record
 train
 gym
+make some food
